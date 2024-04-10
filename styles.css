@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKrUAIJB6KLudzZJzUAo6O-654HrXMFtTEng&s);
+
+     background-size: 100%;
+     background-origin: 1200px;
+     border: 300px pink;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+
+   
+    background-origin: 1200px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 2px 5px rgba(241, 9, 9, 0.1);
+    text-align: center;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    color: #cc2c7c;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e99198;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#movieList {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #1800f5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.movie img {
+    width: 50%;
+    height: auto;
+}
+
+#movieDetails {
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .movie {
+        width: 100%;
+    }
+}
